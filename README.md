@@ -5,4 +5,5 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
 Acesse o meu desafio final do Módulo 02! \/ \/
 
-https://oewertonlopes.github.io/Estudos/html-css/desafios/desafio010/android.html
+
+<a href="https://oewertonlopes.github.io/Estudos/html-css/desafios/desafio010/android.html">Desafio Final do Módulo 02!</a>
