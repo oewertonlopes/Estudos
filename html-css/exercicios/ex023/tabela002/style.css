@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+caption {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+  background: papayawhip;
+}
+
+table {
+  width: 565px;
+  margin: auto;
+  margin-top: 50px;
+  background: rgba(0, 0, 0, 0.1);
+  border-collapse: collapse;
+}
+
+th {
+  padding: 20px 30px;
+  border: 1px solid black;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 1.5em;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px 30px;
+}
+
+.tabela tbody tr:nth-child(even) {
+  background:blueviolet;
+}
+
+.tabela tbody tr:nth-child(odd)
+{
+  background-color:green;
+}
+
+.est {
+  text-align: left;
+  padding-left: 0px;
+}
+
+.num{
+  text-align: right;
+  padding-right: 0px;
+}
+
+.foot {
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 1em;
+}

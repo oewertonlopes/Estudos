@@ -59,7 +59,7 @@ li {
 
 .segunda {
   background-position: right center;
-  background: url(/imagens/background001.jpg) no-repeat;
+  background: url(../imagens/background001.jpg) no-repeat;
   background-attachment:fixed;
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -74,7 +74,7 @@ li {
 
 .quinta {
   background-position: right center;
-  background: url(/imagens/background002.jpg) no-repeat;
+  background: url(../imagens/background002.jpg) no-repeat;
   background-attachment:fixed;
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.3);
