@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+h1 {
+  margin: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+table {
+  margin: auto;
+  margin-top: 50px;
+  width: 500px;
+  border-spacing: 10px;
+}
+
+td {
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px;
+  background: gainsboro;
+  border-radius: 10px;
+}
+
+td:hover {
+  background: ghostwhite;
+}
