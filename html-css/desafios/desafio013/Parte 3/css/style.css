@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 50px;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  width: 80vw;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+td:hover {
+  background: lightcyan;
+}
+
+.esq {
+  background: lightgray;
+  text-align: start;
+  padding-left: 10px;
+}
+
+.cor {
+  background: lightgray;
+}
