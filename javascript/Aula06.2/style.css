@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+h1 {
+  font-family: arial;
+  text-align: center;
+  color: black;
+  background: lightgray;
+  padding: 50px;
+}
