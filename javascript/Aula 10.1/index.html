@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Básica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div>
+    <h1>Somando Valores.</h1>
+  
+    <input class="i1" type="number" name="txtn1" id="txtn1">
+    <p class="mais">+</p>
+    <input class="i2" type="number" name="txtn2" id="txtn2">
+    <input class="i3" type="button" value="somar" onclick="somar()">
+    <p class="igual">=</p>
+    <output type="number" name="resultado" id="res" >
+  </div>
+
+  <div>
+    <h1>Subtraindo Valores.</h1>
+  
+    <input class="i1" type="number" name="txtn1" id="subn1">
+    <p class="mais">-</p>
+    <input class="i2" type="number" name="txtn2" id="subn2">
+    <input class="i3" type="button" value="subtrair" onclick="subtrair()">
+    <p class="igual">=</p>
+    <output type="number" name="resultado" id="resSub" >
+  </div>
+
+  <div>
+    <h1>Multiplicando Valores.</h1>
+  
+    <input class="i1" type="number" name="txtn1" id="muln1">
+    <p class="mais">x</p>
+    <input class="i2" type="number" name="txtn2" id="muln2">
+    <input class="i3" type="button" value="multiplicar" onclick="multiplicar()">
+    <p class="igual">=</p>
+    <output type="number" name="resultado" id="resMul" >
+  </div>
+
+  <div>
+    <h1>Dividindo Valores.</h1>
+  
+    <input class="i1" type="number" name="txtn1" id="divn1">
+    <p class="mais">/</p>
+    <input class="i2" type="number" name="txtn2" id="divn2">
+    <input class="i3" type="button" value="Dividir" onclick="dividir()">
+    <p class="igual">=</p>
+    <output type="number" name="resultado" id="resDiv" >
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
