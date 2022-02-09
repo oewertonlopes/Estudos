@@ -1,9 +1,20 @@
-let horaLocal = minutoLocal = segundoLocal = new Date();
-let hora = `${horaLocal.getHours()}:${minutoLocal.getMinutes()}:${segundoLocal.getSeconds()}`;
-console.log (`Agora são ${hora} minutos`)
-if (hora >= 6 && hora <= 12) {
-  console.log ('teste1')
-  
-} else {
-  console.log ('teste2')
+function carregar() {
+  let msg = document.getElementById("msg");
+  let img = document.getElementById("imagem");
+  let horaLocal = minutoLocal = new Date();
+  let hora = `${horaLocal.getHours()} horas e ${minutoLocal.getMinutes()}`;
+  msg.innerHTML = `Agora são ${hora} Minutos.`;
+
+  if (hora >= 0 && hora < 12) {
+    document.body.style.backgroundColor = ('#E8C881')
+    img.src = "imagens/manha.jpg"
+  } 
+  else if (hora >= 12 && hora < 18) {
+    img.src = 'imagens/tarde.jpg'
+    document.body.style.backgroundColor = ('#53344A')
+  } 
+  else {
+    img.src = "imagens/noite.jpg";
+    document.body.style.backgroundColor = ('#074469')
+  }
 }

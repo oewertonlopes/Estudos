@@ -31,8 +31,10 @@ div p {
 }
 
 img {
+  margin-top: 20px;
   border-radius: 50%;
-  width: 100px;
+  width: 250px;
+  height: 250px;
 }
 
 footer p {
@@ -42,6 +44,6 @@ footer p {
 a {
   text-decoration: none;
   color: white;
-  padding: 20px;
+  padding: 20px 20px 20px 2px;
   font-style: italic;
 }
