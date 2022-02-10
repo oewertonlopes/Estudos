@@ -17,6 +17,7 @@ function verificar() {
       if (idade > 0 && idade < 10) {
         //crianca
         img.setAttribute("src", "/imagens/crianca-menino.jpg");
+        res.innerHTML = `Detectamos um menino com ${idade} anos.`;
       } else if (idade < 21) {
         //adolescente
         img.setAttribute("src", "/imagens/adolescente-homem.jpg");
@@ -26,6 +27,7 @@ function verificar() {
       } else {
         //idoso
         img.setAttribute("src", "/imagens/homem-velho.jpg");
+        res.innerHTML = `Detectamos um senhor com ${idade} anos.`;
       }
     } else if (fsex[1].checked) {
       genero = "mulher";
@@ -33,6 +35,7 @@ function verificar() {
       if (idade > 0 && idade < 10) {
         //crianca
         img.setAttribute("src", "/imagens/crianca-menina.jpg");
+        res.innerHTML = `Detectamos uma menina com ${idade} anos.`;
       } else if (idade < 21) {
         //adolescente
         img.setAttribute("src", "/imagens/adolescente-mulher.jpg");
@@ -42,6 +45,7 @@ function verificar() {
       } else {
         //idoso
         img.setAttribute("src", "/imagens/mulher-velha.jpg");
+        res.innerHTML = `Detectamos uma senhora com ${idade} anos.`;
       }
     }
     res.style.textAlign = "center";
