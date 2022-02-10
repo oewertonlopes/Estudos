@@ -16,17 +16,17 @@ function verificar() {
       res.innerHTML = `Detectamos um ${genero} com ${idade} anos.`;
       if (idade > 0 && idade < 10) {
         //crianca
-        img.setAttribute("src", "/imagens/crianca-menino.jpg");
+        img.setAttribute("src", "./imagens/crianca-menino.jpg");
         res.innerHTML = `Detectamos um menino com ${idade} anos.`;
       } else if (idade < 21) {
         //adolescente
-        img.setAttribute("src", "/imagens/adolescente-homem.jpg");
+        img.setAttribute("src", "./imagens/adolescente-homem.jpg");
       } else if (idade < 50) {
         //adulto
-        img.setAttribute("src", "/imagens/homem-jovem.jpg");
+        img.setAttribute("src", "./imagens/homem-jovem.jpg");
       } else {
         //idoso
-        img.setAttribute("src", "/imagens/homem-velho.jpg");
+        img.setAttribute("src", "./imagens/homem-velho.jpg");
         res.innerHTML = `Detectamos um senhor com ${idade} anos.`;
       }
     } else if (fsex[1].checked) {
@@ -34,17 +34,17 @@ function verificar() {
       res.innerHTML = `Detectamos uma ${genero} com ${idade} anos.`;
       if (idade > 0 && idade < 10) {
         //crianca
-        img.setAttribute("src", "/imagens/crianca-menina.jpg");
+        img.setAttribute("src", "./imagens/crianca-menina.jpg");
         res.innerHTML = `Detectamos uma menina com ${idade} anos.`;
       } else if (idade < 21) {
         //adolescente
-        img.setAttribute("src", "/imagens/adolescente-mulher.jpg");
+        img.setAttribute("src", "./imagens/adolescente-mulher.jpg");
       } else if (idade < 50) {
         //adulto
-        img.setAttribute("src", "/imagens/mulher-jovem.jpg");
+        img.setAttribute("src", "./imagens/mulher-jovem.jpg");
       } else {
         //idoso
-        img.setAttribute("src", "/imagens/mulher-velha.jpg");
+        img.setAttribute("src", "./imagens/mulher-velha.jpg");
         res.innerHTML = `Detectamos uma senhora com ${idade} anos.`;
       }
     }
