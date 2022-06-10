@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+/*body {
+  background-image: url('./20171011_112301.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.balao {
+  margin: 10px 50px;
+  background: #00f;
+  display: inline-block;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.balao::after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-top:10px;
+  margin-left: 10px;
+  border: 20px solid;
+  border-color: #00f transparent transparent transparent;
+}*/
+
+/*input {
+  background-color: rebeccapurple;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+main::before {
+  content: "";
+  background-color: red;
+  position:relative;
+  height: 4px;
+  margin-bottom: 5px;
+  width: 40px;
+  display: flex;
+}
+
+input::placeholder {
+  color: rgb(30, 255, 0);
+  text-transform: uppercase;
+}*/
+
+/*
+table {
+  margin: auto;
+  background-color: wheat;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+thead th {
+  background-color: burlywood;
+}
+
+tr:nth-child(odd) {
+background-color: aqua;
+}
+
+main {
+  display: grid;
+}
+
+
+div {
+
+  margin: 0 auto;
+  margin-top: 20px;
+  background: linear-gradient(to bottom, #2683d1, #2683ca, #2683ba);
+  border: 1px solid #2683aa;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+div a {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div:hover {
+  background: #7bb5ce;
+  cursor: pointer;
+}*/
+
+/*
+div {
+  box-sizing: content-box;
+  background-color: #3c7cc6;
+  display: inline-block;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  left: -80px;
+  font-size: 20px;
+
+  transform: rotate(-45deg);
+  border-style:double;
+  border-color: #ffffff;
+  border-width: 2px;
+  box-shadow: 1px 1px 1px 0px rgba(179, 171, 171, 0.507);
+}
+
+div a {
+  text-decoration: none;
+  color: white;
+}
+
+*/

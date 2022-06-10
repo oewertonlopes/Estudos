@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.texto {
+  width: 200px;
+  height: 9050px;
+  overflow: auto;
+  background-color: #ccc;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.scrollButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: red;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  display: none;
+}

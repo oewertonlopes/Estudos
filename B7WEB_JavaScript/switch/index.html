@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1 id="titulo">Seja bem vindo(a).</h1>
+
+  <p>Selecione o dia da semana:</p>
+
+  <form id="semana" onclick="selecionar()">
+    <p><input type="radio" name="opcao" class="teste" value=1>Segunda-Feira</p>
+    <p><input type="radio" name="opcao" class="teste" value="2">Terça-Feira</p>
+    <p><input type="radio" name="opcao" class="teste" value="3">Quarta-Feira</p>
+    <p><input type="radio" name="opcao" class="teste" value="4">Quinta-Feira</p>
+    <p><input type="radio" name="opcao" class="teste" value="5">Sexta-Feira</p>
+    <p><input type="radio" name="opcao" class="teste" value="6">Sabado</p>
+    <p><input type="radio" name="opcao" class="teste" value="7">Domingo</p>
+  </form>
+
+  <div id="dia-hoje"></div>
+
+  <script src="/js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+@keyframes teste {
+  0% {
+    background: red;
+    top: 0;
+    left: 0;
+  }
+  25% {
+    background: green;
+    top: 0;
+    left: 250px;
+  }
+  50% {
+    background: yellow;
+    top: 250px;
+    left: 250px;
+  }
+  75% {
+    background: orangered;
+    top: 250px;
+    left: 0;
+  }
+  100% {
+    background: blue;
+    top: 0;
+    left: 0;
+  }
+}
+
+.container {
+  display: flex;
+  background: #ccc;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  flex-wrap: wrap;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: #f00;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+.up {
+  align-self: flex-start;
+}
+
+.down {
+  align-self: flex-end;
+}
+
+.inicio {
+  order: 1;
+}
+
+/*.teste {
+  animation-name: teste;
+  animation-duration: 4s;
+  position: absolute;
+}
+*/

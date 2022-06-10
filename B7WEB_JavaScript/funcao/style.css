@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  background-image: url(/smartphone-logotipopix.webp);
+  width: 500px;
+  height: 650px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagem {
+  height: 400px;
+  width: auto;
+}
+
+.btn_animais{
+display: flex;
+justify-content: center;
+
+}
+
+.btn_animais div {
+  display: flex;
+  justify-content: center;
+  width: 450px;
+  
+}
+
+.btn {
+ 
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: rgb(131, 235, 174);
+  border: 1px solid black;
+  color: rgba(0, 0, 0, 0.76);
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #4BB8AA;
+}
