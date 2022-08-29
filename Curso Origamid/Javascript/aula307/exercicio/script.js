@@ -18,21 +18,21 @@ linksSite.forEach((link) => {
 
 // Selecione todos os elementos do site começando a partir do body,
 // ao clique mostre exatamente quais elementos estão sendo clicados
-/*
-const elementos = document.querySelectorAll("body *");
+
+const elementos1 = document.querySelectorAll("body *");
 
 function handleElemento(event) {
   console.log(event.currentTarget);
 }
 
-elementos.forEach((elemento) => {
+elementos1.forEach((elemento) => {
   elemento.addEventListener("click", handleElemento);
 });
-*/
+
 
 // Utilizando o código anterior, ao invés de mostrar no console,
 // remova o elemento que está sendo clicado, o método remove() remove um elemento
-/*
+
 const elementos = document.querySelectorAll("body *");
 
 function handleElemento(event) {
@@ -42,7 +42,7 @@ function handleElemento(event) {
 elementos.forEach((elemento) => {
   elemento.addEventListener("click", handleElemento);
 });
-*/
+
 // Se o usuário clicar na tecla (t), aumente todo o texto do site.
 
 function handleAumentar(event) {
