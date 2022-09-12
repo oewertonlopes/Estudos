@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animais Fantásticos</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="/exercicios/css/style.css">
   <script>
     document.documentElement.className += ' js'
   </script>
@@ -14,7 +14,7 @@
 
 <body>
 
-  <nav class="menu js-menu">
+  <nav class="menu" data-menu="suave">
     <ul>
       <li><a href="#animais">Animais</a></li>
       <li><a href="#faq">FAQ</a></li>
@@ -23,65 +23,65 @@
     </ul>
   </nav>
 
-  <section class="grid-section animais js-scroll" id="animais">
+  <section class="grid-section animais" data-anime="scroll" id="animais">
     <h1 class="titulo">Animais Fantásticos</h1>
-    <ul class="animais-lista js-tabmenu">
+    <ul class="animais-lista" data-tab='menu'>
       <li>
-        <img src="./img/imagem1.jpg">
+        <img src="/exercicios/img/imagem1.jpg">
       </li>
       <li>
-        <img src="./img/imagem2.jpg">
+        <img src="/exercicios/img/imagem2.jpg">
       </li>
       <li>
-        <img src="./img/imagem3.jpg">
+        <img src="/exercicios/img/imagem3.jpg">
       </li>
       <li>
-        <img src="./img/imagem4.jpg">
+        <img src="/exercicios/img/imagem4.jpg">
       </li>
       <li>
-        <img src="./img/imagem5.jpg">
+        <img src="/exercicios/img/imagem5.jpg">
       </li>
       <li>
-        <img src="./img/imagem6.jpg">
+        <img src="/exercicios/img/imagem6.jpg">
       </li>
     </ul>
-    <div class="animais-descricao js-tabcontent">
-      <section>
+    <div class="animais-descricao" data-tab='content'>
+      <section data-anime='show-right'>
         <h2>Raposa</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae quae illum tempore et ad porro ipsam dolore, natus rem possimus autem. Totam corrupti eligendi rerum!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic. Itaque, molestias veniam expedita cumque ipsam vitae totam voluptatem magni.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perferendis totam dolorem facere amet ipsum?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nemo dolore impedit quam necessitatibus similique deserunt voluptatem veritatis nulla expedita!</p>
       </section>
-      <section>
+      <section data-anime='show-down'>
         <h2>Esquilo</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae quae illum tempore et ad porro ipsam dolore, natus rem possimus autem. Totam corrupti eligendi rerum!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic. Itaque, molestias veniam expedita cumque ipsam vitae totam voluptatem magni.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perferendis totam dolorem facere amet ipsum?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nemo dolore impedit quam necessitatibus similique deserunt voluptatem veritatis nulla expedita!</p>
       </section>
-      <section>
+      <section data-anime='show-right'>
         <h2>Urso</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae quae illum tempore et ad porro ipsam dolore, natus rem possimus autem. Totam corrupti eligendi rerum!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic. Itaque, molestias veniam expedita cumque ipsam vitae totam voluptatem magni.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perferendis totam dolorem facere amet ipsum?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nemo dolore impedit quam necessitatibus similique deserunt voluptatem veritatis nulla expedita!</p>
       </section>
-      <section>
+      <section data-anime='show-down'>
         <h2>Lobo</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae quae illum tempore et ad porro ipsam dolore, natus rem possimus autem. Totam corrupti eligendi rerum!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic. Itaque, molestias veniam expedita cumque ipsam vitae totam voluptatem magni.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perferendis totam dolorem facere amet ipsum?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nemo dolore impedit quam necessitatibus similique deserunt voluptatem veritatis nulla expedita!</p>
       </section>
-      <section>
+      <section data-anime='show-right'>
         <h2>Macaco</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae quae illum tempore et ad porro ipsam dolore, natus rem possimus autem. Totam corrupti eligendi rerum!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic. Itaque, molestias veniam expedita cumque ipsam vitae totam voluptatem magni.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perferendis totam dolorem facere amet ipsum?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nemo dolore impedit quam necessitatibus similique deserunt voluptatem veritatis nulla expedita!</p>
       </section>
-      <section>
+      <section data-anime='show-down'>
         <h2>Leão</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae quae illum tempore et ad porro ipsam dolore, natus rem possimus autem. Totam corrupti eligendi rerum!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, hic. Itaque, molestias veniam expedita cumque ipsam vitae totam voluptatem magni.</p>
@@ -91,9 +91,9 @@
     </div>
   </section>
 
-  <section class="grid-section faq js-scroll" id="faq">
+  <section class="grid-section faq" data-anime="scroll" id="faq">
     <h1 class="titulo">FAQ</h1>
-    <dl class="faq-lista js-accordion">
+    <dl class="faq-lista" data-anime='accordion'>
       <dt>Qual é a idade dos animais?</dt>
       <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia sint ipsa explicabo commodi inventore quo fugiat doloremque! At, possimus consequuntur?</dd>
       <dt>Eles são fantásticos?</dt>
@@ -105,10 +105,10 @@
     </dl>
   </section>
 
-  <section class="grid-section contato js-scroll" id="contato">
+  <section class="grid-section contato" data-anime="scroll" id="contato">
     <h1 class="titulo">Contato</h1>
     <div class="mapa">
-      <img src="./img/mapa.png">
+      <img src="/exercicios/img/mapa.png">
     </div>
     <ul class="dados">
       <li>ell.009@hotmal.com</li>
@@ -121,7 +121,7 @@
   <footer class="copy">
     <p>Todos os direitos reservados.</p>
   </footer>
-  <script src=".script.js"></script>
+  <script src="/exercicios/script.js"></script>
 </body>
 
 </html>
